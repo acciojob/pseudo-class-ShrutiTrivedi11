@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+.main-container {
+  position: relative;
+}
+
+.main-container::before,
+.main-container::after {
+  content: "Before Element";
+  color: red;
+  
+}
+
+.main-container::after {
+  content: "After Element";
+}
